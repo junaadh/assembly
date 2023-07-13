@@ -1,5 +1,12 @@
-#compiled binaries
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all directories
+!*/
+
+# Ignore all with .o extensions
+*.o
 */*.o
-*/*.![s]$
-*/^!Makefile
-^!Makefile
